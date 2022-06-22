@@ -1,0 +1,141 @@
+
+ body, html {
+  margin: 0px;
+  padding: 0px;
+ }
+ 
+/**************** Navigation Bar ****************/
+
+/* Default Grid/Background for Nav */
+.grid {
+  display: flex;
+  margin-bottom: 40px;
+  background-color: slategray;
+  position: sticky;
+  top: 0px !important;
+}
+
+/*Default Size Center Bar Items */
+.grid-center {
+    width: 70px;
+    height: 40px;
+}
+
+/*Default Size for Left Bar Item (Hamburger Menu)*/
+.grid-left {
+  flex-grow: 1;
+  max-width: 70px;
+}
+
+/*Default Size for Left Bar Item (Logout Menu)*/
+.grid-right {
+flex-grow: 1;
+min-width: 70px;
+justify-content: right;
+}
+
+
+
+/*Placeholder to preserve spacing for Left Center*/
+.grid-placeholder {
+display: inline-flex;
+flex-grow: 1;
+ /* Formula Grid item * 70 + 140 */
+max-width: calc 100%;
+visibility: hidden;
+min-width: 5.5%;
+}
+
+/*Placeholder to preserve spacing for Right Center*/
+.grid-placeholder2 {
+display: inline-flex;
+flex-grow: 1;
+ /* Formula Grid item * 70 + 140 */
+max-width: calc(100% - 710px);
+visibility: hidden;
+min-width: 5.5%;
+}
+
+/*Hidden Placeholder to preserve spacing when Center Nav is Hidden*/
+.grid-placeholder3 {
+  background-color: slategray;
+  flex-grow: 1;
+  max-width: 79%;
+  height: 40px;
+  display: none;
+  visibility: hidden;
+
+}
+
+
+
+/* Preserves Spacing for Right Container */ 
+@media screen and (min-width: 500px) {
+  .grid-right {
+    flex-wrap: nowrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+}
+
+/* HIdes the Center Nav and Displays a new place holder to preserve spacing */ 
+@media only screen and (max-width: 770px) {
+  #navHide {
+      display: none;
+  }
+#navExpand {
+  display: flex;
+}
+}
+
+
+/* Button Styling */
+.grid-buttonsNav {
+  background-color: slategray;
+  color: whitesmoke;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  max-width: 50px;
+  min-width: 50px;
+}
+
+/* Ham-Button Styling */
+.grid-buttonsHam { 
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+  text-decoration: none;
+  transition: all .3s ease-out;
+  margin: 10px;
+
+}
+
+/* Button Hover Styling */
+.grid-buttonsNav:hover, .grid-buttonsHam:hover {
+  color: black;
+  text-decoration: none;
+  transition: all .8s ease-out;
+  
+}
+
+/***************** END NAV ****************/
+
+
+
+
+.underConstruction { 
+  font-size: larger;
+  color: slategray;
+  text-align: center;
+}
+
+.constructionImage {
+  width: auto;
+  height: 75vw;
+}
