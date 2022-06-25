@@ -5,7 +5,8 @@
 
 To be done:
 <ui> 
- <li>Hover Menus</li>
+ <li>"Hamburger" menu that shows all options in a side list when screen is too small</li>
+ <li>"Support for more devices</li>
 </ui>
 
 <br>
