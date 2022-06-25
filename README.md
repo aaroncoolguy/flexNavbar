@@ -1,5 +1,12 @@
 # flexNavbar--Repo
  Simple NavBar created with Flex. 
+ 
+Large
+ ![image](https://user-images.githubusercontent.com/46825906/175754384-6c69d7d0-1f8c-4aac-ae2d-6790647134b8.png)
+
+Small
+![image](https://user-images.githubusercontent.com/46825906/175754400-735cca86-cc93-4d11-b8bb-b56af913eeda.png)
+
 
 <br>
 
