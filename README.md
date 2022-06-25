@@ -13,7 +13,8 @@ Small<br>
 To be done:
 <ui> 
  <li>"Hamburger" menu that shows all options in a side list when screen is too small</li>
- <li>"Support for more devices</li>
+ <li>Support for more devices</li>
+ <li>Hover Support for dropdown links?</li>
 </ui>
 
 <br>
